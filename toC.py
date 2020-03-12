@@ -12,6 +12,9 @@ OPENMP_TEMPLATE = """
 """
 
 
+def random_forest(clf, feature_names):
+    print('float (*fcnPtr)({});'.format(', '.join(['float'] * len(feature_names))));
+
 def tree2fun(tree, feature_names, fun_name='tree_fun'):
     '''Create tree function header + code
     '''
