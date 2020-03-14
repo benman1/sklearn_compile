@@ -47,8 +47,8 @@ mytree.lib.tree_0(0.0, 5.0, 10.0, 10.0, _confidences)
 
 ## status
 This works for the individual trees, I haven't, however, put it together, so there's no aggregation of trees into forests at the moment. The idea would be as follows:
-# organise the project properly using [a cookiecutter](https://github.com/audreyr/cookiecutter-pypackage)
-# integrate trees into forests using [a template with both OpenMP and OpenACC](https://github.com/benman1/parallel_reduction_example/blob/master/reduction.cpp)
-# template trees and forest using [mako](https://docs.makotemplates.org/en/latest/usage.html#basic-usage)
+* organise the project properly using [a cookiecutter](https://github.com/audreyr/cookiecutter-pypackage)
+* integrate trees into forests using [a template with both OpenMP and OpenACC](https://github.com/benman1/parallel_reduction_example/blob/master/reduction.cpp)
+* template trees and forest using [mako](https://docs.makotemplates.org/en/latest/usage.html#basic-usage)
 
 This would already be nice; both OpenMP and OpenACC support multicore CPU and GPU out-of-the-box. FPGA could work with smaller tweaks.
